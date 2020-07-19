@@ -1,6 +1,9 @@
 {
   "name": "openapi-generator-playground",
   "version": "1.0.0",
+  "scripts": {
+    "generate-client": "openapi-generator generate -g typescript-axios -i https://petstore.swagger.io/v2/swagger.json -o ./src/api"
+  },
   "devDependencies": {
     "@openapitools/openapi-generator-cli": "^1.0.15-4.3.1"
   }
